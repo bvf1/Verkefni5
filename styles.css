@@ -21,10 +21,15 @@ main {
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
   background: #eee;
 }
  .card {
-   
+   display: flex;
+   flex-direction: column;
+   max-width: 470px;
+   max-height: 300px;
+   overflow: scroll;
    background: #fff;
    border: 2px solid #aaa;
    border-radius: 5px;
