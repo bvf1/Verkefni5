@@ -29,7 +29,7 @@ main {
    flex-direction: column;
    max-width: 470px;
    max-height: 300px;
-   overflow: scroll;
+   
    background: #fff;
    border: 2px solid #aaa;
    border-radius: 5px;
@@ -43,13 +43,27 @@ main {
  }
 
  .card__main {
+   display: flex;
    font-size: 16px;
    line-height: 22px;
 
 }
 
  .card__foot {
+   display: flex;
    font-weight: bold;
+   /*list-style-type: none;*/
 
  }
 
+ .card__image{
+   width: 150px;
+   height: auto;
+   object-fit: contain;
+ }
+
+
+
+.card__text {
+  overflow: scroll;
+}
