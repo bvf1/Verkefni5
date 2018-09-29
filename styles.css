@@ -9,7 +9,6 @@
 
 html {
   box-sizing: border-box;
-
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   font-size: 16px;
 }
@@ -25,10 +24,27 @@ main {
   background: #eee;
 }
  .card {
+   
    background: #fff;
    border: 2px solid #aaa;
    border-radius: 5px;
+   margin-bottom: 0.625em;
  }
 
+ .card__headline {
+   font-size: 22px;
+   line-height: 22px;
+   /* font-weight: bold; */
+ }
 
+ .card__main {
+   font-size: 16px;
+   line-height: 22px;
+
+}
+
+ .card__foot {
+   font-weight: bold;
+
+ }
 
