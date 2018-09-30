@@ -20,7 +20,7 @@ main {
 }
 
 .cards {
-  /* display: flex; */
+  display: flex;
   flex-wrap: wrap;
   background: #eee;
 }
@@ -32,6 +32,7 @@ main {
    background: #fff;
    border: 2px solid #aaa;
    border-radius: 5px;
+   word-break: break-word;
    /* word-break: break-all; */
    /* margin: -10px; */
    margin-bottom: 0.625em;
