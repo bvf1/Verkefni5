@@ -32,20 +32,27 @@ main {
    max-width: 470px;
    max-height: 300px;
    background: #fff;
-   border: 2px solid #aaa;
-   border-radius: 5px;
    word-break: break-word;
    margin-bottom: 0.625em;
    padding: 10px;
  }
 
+ .card--border{
+   border: 2px solid #aaa;
+   border-radius: 5px;
+ }
+
+ 
+
  .card__headline {
-   font-size: 22px;
+   /* font-size: 22px; */
    line-height: 22px;
    font-weight: bold;
-   flex: 1;
+   /* flex: 1; */
    padding-bottom: 22px;
  }
+
+ 
 
  .card__main {
    display: flex;
@@ -75,4 +82,6 @@ main {
   padding-top: 8px;
 }
 
-.card__tags {margin-right: 16px;}
+.card__foot--look {}
+
+.card__tags {margin-right: 12px;}
